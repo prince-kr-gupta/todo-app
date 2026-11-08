@@ -1,7 +1,21 @@
 function App() {
- return <center class="todo-container">
+ return (
+ <center class="todo-container">
   <h1>Todo App</h1>
-  <p>Made in react</p>
+  {/* //bootstrap css */}
+  <div class="container text-center">
+    <div class="row">
+        <div class="col-6">
+            <input type ="text" placeholder="Enter Todo Here"></input></div>
+        <div class="col-4">
+            <input type="date"></input>
+        </div>
+        <div class="col-2">
+            <button type="button" class="btn btn-success">Add</button>
+        </div>
+    </div>
+  </div>
  </center>
+ );
 }
 export default App;
