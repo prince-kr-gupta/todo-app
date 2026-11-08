@@ -3,8 +3,8 @@ function TodoItem2() {
     let todoDate = "08/11/2026";
 
 return (
-    <div class="container text-center">
-    <div class="row">
+    <div class="container">
+    <div class="row kg-row">
         <div class="col-6">
             {todoName}
         </div>
@@ -12,7 +12,7 @@ return (
             {todoDate}
         </div>
         <div class="col-2">
-            <button type="button" class="btn btn-danger">Delete</button>
+            <button type="button" class="btn btn-danger kg-button">Delete</button>
         </div>
     </div>
     </div>
