@@ -6,9 +6,7 @@ const TodoItems = ({todoItems}) => {
            {todoItems.map((item) => (
             <TodoItem todoDate={item.dueDate} todoName={item.name}>
             </TodoItem>
-            ))} 
-        
-    
+            ))}     
   </div>
     );
 }
