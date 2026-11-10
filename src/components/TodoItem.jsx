@@ -1,14 +1,5 @@
 function TodoItem1({todoName, todoDate}) {
 
-    const todoItems = [{
-        name: 'Buy Milk',
-        dueDate: '10/11/2026',
-    },
-    {
-        name: 'Go To College',
-        dueDate: '10/11/2026',
-    },
-];
 
 return (
     <div class="container">

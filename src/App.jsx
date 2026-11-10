@@ -4,6 +4,15 @@ import TodoItem from "./components/TodoItem";
 import "./App.css";
 
 function App() {
+   const todoItems = [{
+        name: 'Buy Milk',
+        dueDate: '10/11/2026',
+    },
+    {
+        name: 'Go To College',
+        dueDate: '10/11/2026',
+    },
+];
  return (
  <center className="todo-container">
 
