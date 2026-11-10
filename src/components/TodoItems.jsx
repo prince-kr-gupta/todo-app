@@ -1,7 +1,10 @@
+import TodoItem from "./TodoItem";
+
 const TodoItems = ({TodoItems}) => {
     return (
         <>
         <div className="items-container">
+            
     <TodoItem todoDate={} todoName={}/>
   </div>
         </>
