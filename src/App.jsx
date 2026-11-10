@@ -12,7 +12,7 @@ function App() {
   <AppName />
   <AddTodo />
   <div className="items-container">
-    <TodoItem />
+    <TodoItem todoDate={} todoName={}/>
     <TodoItem1 />
   <TodoItem2 />
   </div>
