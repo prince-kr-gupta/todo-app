@@ -11,8 +11,6 @@ function App() {
   <AddTodo />
   <div className="items-container">
     <TodoItem todoDate={} todoName={}/>
-    <TodoItem1 />
-  <TodoItem2 />
   </div>
 
  </center>
