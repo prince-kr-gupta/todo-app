@@ -17,6 +17,10 @@ function App() {
       name: "video",
       dueDate: "10/11/2026",
     },
+    {
+        name: 'Hostel',
+        dueDate: '11/11/2026',
+    },
 ];
  return (
  <center className="todo-container">
