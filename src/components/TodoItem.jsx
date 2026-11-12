@@ -1,6 +1,5 @@
 function TodoItem({todoName, todoDate}) {
 
-
 return (
     <div className="container">
     <div className="row kg-row">
