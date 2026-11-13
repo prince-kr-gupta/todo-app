@@ -21,6 +21,11 @@ function App() {
         name: 'Hostel',
         dueDate: '11/11/2026',
     },
+    {
+        name: 'gym',
+        dueDate: '13/11/2026',
+    },
+    
 ];
  return (
  <center className="todo-container">
